@@ -62,4 +62,12 @@
     padding: 2rem;
     line-height: 3rem;
   }
+  .grid_1_2 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
