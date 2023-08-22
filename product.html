@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/layout.css" />
+    <link rel="stylesheet" href="/CSS/general.css" />
+    <title>Product</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a class="nav" href="index.html"> Forside</a>
+          </li>
+          <li>
+            <a class="nav" href="kategori.html"> Kategori</a>
+          </li>
+          <li>
+            <a class="nav" href="produktliste.html">Produktliste</a>
+          </li>
+          <li>
+            <a class="nav" href="produkt.html">Produkt</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="productgrid">
+        <div class="picture">
+          <img src="https://kea-alt-del.dk/t7/images/webp/640/1532.webp" alt="puma t-shirt" />
+        </div>
+        <div class="productInformation">
+          <h2 class="productname">Puma T-shirt</h2>
+          <div class="price_box">
+            <h5 class="price">Price</h5>
+            <p class="price_text">100 DKK</p>
+          </div>
+
+          <form name="size" id="size" action="#">
+            Choose Sizing
+            <select name="subject" id="subject">
+              <option value="" selected="selected">XS</option>
+              <option value="" selected="selected">S</option>
+              <option value="" selected="selected">M</option>
+              <option value="" selected="selected">L</option>
+              <option value="" selected="selected">XL</option>
+            </select>
+          </form>
+          <h3>Lækker t-shirt</h3>
+          <h4>tekst omkring produkt</h4>
+
+          <button class="addBasket">Add To Basket</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
