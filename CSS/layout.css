@@ -2,6 +2,24 @@
 
 /* Mobile */
 @media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav_links {
+    padding: 28px 0;
+  }
+
+  .nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  .header_logo {
+    display: flex;
+    justify-content: center;
+  }
   .productgrid {
     display: grid;
     grid-template-columns: 1fr;
