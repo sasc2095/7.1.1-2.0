@@ -6,39 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/CSS/layout.css" />
     <link rel="stylesheet" href="/CSS/general.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <title>Product</title>
   </head>
   <body>
     <header>
-      <nav class="nav-bar">
-        <ul>
-          <li>
-            <a class="nav" href="index.html"> Forside</a>
-          </li>
-          <li>
-            <a class="nav" href="kategori.html"> Kategori</a>
-          </li>
-          <li>
-            <a class="nav" href="produktliste.html">Produktliste</a>
-          </li>
-          <li>
-            <a class="nav" href="produkt.html">Produkt</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header">
+        <nav>
+          <a class="header_logo" href="index.html"> Fashion</a>
+          <ul class="nav-links">
+            <li>
+              <a href="category.html"> Categories</a>
+            </li>
+            <li>
+              <a href="productlist.html">Productlist</a>
+            </li>
+            <li>
+              <a href="product.html">Product</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="productgrid">
         <div class="picture">
-          <img src="https://kea-alt-del.dk/t7/images/webp/640/1532.webp" alt="puma t-shirt" />
+          <img src="https://kea-alt-del.dk/t7/images/webp/640/1563.webp" alt="puma t-shirt" />
         </div>
         <div class="productInformation">
-          <h2 class="productname">Puma T-shirt</h2>
-          <div class="price_box">
-            <h5 class="price">Price</h5>
-            <p class="price_text">100 DKK</p>
-          </div>
+          <h1>Sahara Team India Fanwear Round Neck Jersey</h1>
+          <h3>Price</h3>
+          <h4>895</h4>
 
+          <h3>Roundneck Jersey</h3>
+          <p>
+            Blue round neck Sahara Team India jersey, has short sleeves, print on the chest and back chest<br /><br />Warranty for manufacturing defects: 6 months (not valid on products with more than
+            20% discount)<br />
+          </p>
           <form name="size" id="size" action="#">
             Choose Sizing
             <select name="subject" id="subject">
@@ -49,9 +55,6 @@
               <option value="" selected="selected">XL</option>
             </select>
           </form>
-          <h3>Lækker t-shirt</h3>
-          <h4>tekst omkring produkt</h4>
-
           <button class="addBasket">Add To Basket</button>
         </div>
       </section>
