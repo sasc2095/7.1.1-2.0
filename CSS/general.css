@@ -14,22 +14,52 @@ body {
 }
 
 header {
-  background-color: #8a8d79;
-  /* position: sticky; */
-  top: 0;
+  height: auto;
   width: 100%;
-  z-index: 100;
-  padding: 1rem 9rem;
+  background: pink;
+  position: relative;
 }
 
-.nav {
-  background-color: #8a8d79;
-  color: white;
-  font-size: 16px;
-  border: none;
-  text-decoration: none;
-  font-family: "Nunito Sans", sans-serif;
+.header_logo {
+  font-family: "Black Ops One", cursive;
 }
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.nav_links {
+  padding: 28px 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 0;
+  position: relative;
+}
+.nav-links li a::after {
+  content: "";
+  background: red;
+  width: 0;
+  height: 0.2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.5s;
+}
+
+.nav-links li a::after:hover {
+  width: 100%;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -51,31 +81,6 @@ h2 {
   padding: 0 1rem 1em 1rem;
 }
 
-.nav {
-  position: relative;
-  text-decoration: none;
-  letter-spacing: 0.5px;
-  border: none;
-  text-decoration: none;
-  color: white;
-  display: inline;
-}
-
-.nav:after {
-  content: "";
-  display: block;
-  margin: left;
-  background-color: pink;
-  height: 3px;
-  width: 100%;
-  left: 0;
-  bottom: -10px;
-  transition: 0.3s;
-}
-
-.nav:hover::after {
-  color: beige;
-}
 .category_linking {
   text-decoration: none;
   font-family: sans-serif;
