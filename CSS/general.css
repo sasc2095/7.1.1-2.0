@@ -202,3 +202,13 @@ span {
   text-decoration: line-through;
   margin-right: 1rem;
 }
+
+.front_div {
+  background-color: #c0c9cc;
+  height: 80vh;
+}
+
+.front_h1 {
+  text-align: center;
+  font-family: "Black Ops One", cursive;
+}
