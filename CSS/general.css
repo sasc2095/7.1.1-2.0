@@ -135,7 +135,8 @@ p {
   align-items: center;
 }
 
-.addBasket {
+.addBasket,
+button {
   background-color: #647c90;
   border: none;
   color: white;
@@ -150,7 +151,8 @@ p {
   margin-top: 1rem;
 }
 
-.addBasket:hover {
+.addBasket:hover,
+button:hover {
   transform: scale(1.05);
   opacity: 0.8;
 }
@@ -168,4 +170,35 @@ fieldset {
 legend {
   text-align: center;
   font-family: sans-serif;
+}
+
+article {
+  margin: 1rem 0 1rem 0;
+}
+
+.container_productlist {
+  width: 200px;
+  height: auto;
+  position: relative;
+}
+.soldout,
+.discount {
+  position: absolute;
+  float: right;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  background-color: #647c90;
+  padding: 5px;
+  color: white;
+}
+
+span {
+  display: flex;
+  flex-direction: row;
+}
+
+.sale_p {
+  text-decoration: line-through;
+  margin-right: 1rem;
 }
