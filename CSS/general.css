@@ -212,3 +212,25 @@ span {
   text-align: center;
   font-family: "Black Ops One", cursive;
 }
+
+.price_product {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.newprice {
+  color: blue;
+  font-weight: bold;
+}
+
+.fullprice {
+  text-decoration: line-through;
+}
+
+.brand,
+.subcategory {
+  display: inline;
+  gap: 1rem;
+}
